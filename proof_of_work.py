@@ -18,7 +18,6 @@ def proof_of_work(blockchain, previous_hash):
         nonce += 1
     return block
 
-
 blockchain = Blockchain()
 # このprevious_hashは適当な値です
 block_hash = "e5c87e27a81ee16c491a2ca6fe1eb1310caed25d0fab1ccfa785ffbadafeb96b"
